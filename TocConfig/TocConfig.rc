@@ -1,0 +1,1019 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\TocConfig.rc2""  // 非 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""         // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\TocConfig.ico"
+IDI_CANCEL              ICON                    "res\\Cancel.ico"
+IDI_OK                  ICON                    "res\\OK.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 TocConfig"
+FONT 9, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,18,17
+    LTEXT           "创造传说设置程式   2005 COKUCO",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Written By: Kudoxinyiji",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_TOCCONFIG_DIALOG DIALOGEX 0, 0, 291, 190
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "创造传说设置"
+FONT 9, "Microsoft Sans Serif", 400, 0, 0x0
+BEGIN
+    COMBOBOX        IDC_COMBO1,192,66,70,106,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    RTEXT           "分 辨 率：",IDC_STATIC,138,66,48,12
+    COMBOBOX        IDC_COMBO2,192,84,70,89,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    RTEXT           "帧数显示：",IDC_STATIC,144,84,42,12
+    COMBOBOX        IDC_COMBO3,192,102,70,61,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    RTEXT           "背景音乐：",IDC_STATIC,132,102,54,12
+    PUSHBUTTON      "确定",IDC_BUTTON1,148,153,54,15
+    COMBOBOX        IDC_COMBO4,48,66,72,84,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO5,48,84,72,84,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO6,48,102,72,84,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO7,48,120,72,84,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO8,48,138,72,84,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO9,48,156,72,84,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    RTEXT           "上：",IDC_STATIC,12,66,29,8
+    RTEXT           "下：",IDC_STATIC,6,84,35,8
+    RTEXT           "左：",IDC_STATIC,12,102,29,8
+    RTEXT           "右：",IDC_STATIC,12,120,30,8
+    RTEXT           "调查：",IDC_STATIC,6,138,37,8
+    RTEXT           "取消：",IDC_STATIC,12,156,31,8
+    RTEXT           "Written By: Kudoxinyiji",IDC_STATIC,156,132,108,12
+    CONTROL         130,IDC_STATIC,"Static",SS_BITMAP,0,0,291,42
+    PUSHBUTTON      "取消",IDC_BUTTON2,210,153,54,15
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "创造传说设置"
+            VALUE "CompanyName", "2005 COKUCO 工作室"
+            VALUE "FileDescription", "创造传说设置"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "TocConfig.exe"
+            VALUE "LegalCopyright", "2005 COKUCO 工作室"
+            VALUE "LegalTrademarks", "2005 COKUCO 工作室"
+            VALUE "OriginalFilename", "TocConfig.exe"
+            VALUE "ProductName", "创造传说设置"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TOCCONFIG_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 290
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_TOCCONFIG_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 14, 0
+0xb0b4, 0xdabf, 0x3620, 0x3034, 0xc1a1, 0x3834, 0x0030, 
+    IDC_COMBO1, 0x403, 14, 0
+0xb0b4, 0xdabf, 0x3820, 0x3030, 0xc1a1, 0x3036, 0x0030, 
+    IDC_COMBO1, 0x403, 15, 0
+0xb0b4, 0xdabf, 0x3120, 0x3230, 0xa134, 0x37c1, 0x3836, "\000" 
+    IDC_COMBO1, 0x403, 14, 0
+0xabc8, 0xc1c6, 0x3620, 0x3034, 0xc1a1, 0x3834, 0x0030, 
+    IDC_COMBO1, 0x403, 14, 0
+0xabc8, 0xc1c6, 0x3820, 0x3030, 0xc1a1, 0x3036, 0x0030, 
+    IDC_COMBO1, 0x403, 15, 0
+0xabc8, 0xc1c6, 0x3120, 0x3230, 0xa134, 0x37c1, 0x3836, "\000" 
+    IDC_COMBO2, 0x403, 7, 0
+0xbbb2, 0xd4cf, 0xbeca, "\000" 
+    IDC_COMBO2, 0x403, 7, 0
+0xd2d3, 0xcfc9, 0xc7bd, "\000" 
+    IDC_COMBO2, 0x403, 7, 0
+0xf3d7, 0xcfc9, 0xc7bd, "\000" 
+    IDC_COMBO3, 0x403, 5, 0
+0xd8b9, 0xd5b1, "\000" 
+    IDC_COMBO3, 0x403, 5, 0
+0xf2b4, 0xaabf, "\000" 
+    IDC_COMBO4, 0x403, 2, 0
+0x002d, 
+    IDC_COMBO4, 0x403, 2, 0
+0x003d, 
+    IDC_COMBO4, 0x403, 10, 0
+0x6142, 0x6b63, 0x7073, 0x6361, 0x0065, 
+    IDC_COMBO4, 0x403, 7, 0
+0x7345, 0x6163, 0x6570, "\000" 
+    IDC_COMBO4, 0x403, 4, 0
+0x6154, 0x0062, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0051, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0057, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0045, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0052, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0054, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0059, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0055, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0049, 
+    IDC_COMBO4, 0x403, 2, 0
+0x004f, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0050, 
+    IDC_COMBO4, 0x403, 2, 0
+0x005b, 
+    IDC_COMBO4, 0x403, 2, 0
+0x005d, 
+    IDC_COMBO4, 0x403, 6, 0
+0x6e45, 0x6574, 0x0072, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0041, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0053, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0046, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0047, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0048, 
+    IDC_COMBO4, 0x403, 2, 0
+0x004a, 
+    IDC_COMBO4, 0x403, 2, 0
+0x004b, 
+    IDC_COMBO4, 0x403, 2, 0
+0x004c, 
+    IDC_COMBO4, 0x403, 11, 0
+0x654c, 0x7466, 0x5320, 0x6968, 0x7466, "\000" 
+    IDC_COMBO4, 0x403, 2, 0
+0x005a, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0058, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0043, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0056, 
+    IDC_COMBO4, 0x403, 2, 0
+0x0042, 
+    IDC_COMBO4, 0x403, 2, 0
+0x004e, 
+    IDC_COMBO4, 0x403, 2, 0
+0x004d, 
+    IDC_COMBO4, 0x403, 2, 0
+0x002c, 
+    IDC_COMBO4, 0x403, 2, 0
+0x002e, 
+    IDC_COMBO4, 0x403, 12, 0
+0x6952, 0x6867, 0x2074, 0x6853, 0x6669, 0x0074, 
+    IDC_COMBO4, 0x403, 6, 0
+0x7053, 0x6361, 0x0065, 
+    IDC_COMBO4, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2a20, "\000" 
+    IDC_COMBO4, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3720, "\000" 
+    IDC_COMBO4, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3820, "\000" 
+    IDC_COMBO4, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3920, "\000" 
+    IDC_COMBO4, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2d20, "\000" 
+    IDC_COMBO4, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3420, "\000" 
+    IDC_COMBO4, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3520, "\000" 
+    IDC_COMBO4, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3620, "\000" 
+    IDC_COMBO4, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3120, "\000" 
+    IDC_COMBO4, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3220, "\000" 
+    IDC_COMBO4, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3320, "\000" 
+    IDC_COMBO4, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3020, "\000" 
+    IDC_COMBO4, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2e20, "\000" 
+    IDC_COMBO4, 0x403, 9, 0
+0x7055, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO4, 0x403, 11, 0
+0x6f44, 0x6e77, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO4, 0x403, 11, 0
+0x654c, 0x7466, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO4, 0x403, 12, 0
+0x6952, 0x6867, 0x2074, 0x7241, 0x6f72, 0x0077, 
+    IDC_COMBO4, 0x403, 5, 0
+0x6f48, 0x656d, "\000" 
+    IDC_COMBO4, 0x403, 4, 0
+0x6e45, 0x0064, 
+    IDC_COMBO4, 0x403, 5, 0
+0x6750, 0x7055, "\000" 
+    IDC_COMBO4, 0x403, 5, 0
+0x6750, 0x6e44, "\000" 
+    IDC_COMBO4, 0x403, 7, 0
+0x6e49, 0x6573, 0x7472, "\000" 
+    IDC_COMBO4, 0x403, 7, 0
+0x6544, 0x656c, 0x6574, "\000" 
+    IDC_COMBO5, 0x403, 2, 0
+0x002d, 
+    IDC_COMBO5, 0x403, 2, 0
+0x003d, 
+    IDC_COMBO5, 0x403, 10, 0
+0x6142, 0x6b63, 0x7073, 0x6361, 0x0065, 
+    IDC_COMBO5, 0x403, 7, 0
+0x7345, 0x6163, 0x6570, "\000" 
+    IDC_COMBO5, 0x403, 4, 0
+0x6154, 0x0062, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0051, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0057, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0045, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0052, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0054, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0059, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0055, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0049, 
+    IDC_COMBO5, 0x403, 2, 0
+0x004f, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0050, 
+    IDC_COMBO5, 0x403, 2, 0
+0x005b, 
+    IDC_COMBO5, 0x403, 2, 0
+0x005d, 
+    IDC_COMBO5, 0x403, 6, 0
+0x6e45, 0x6574, 0x0072, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0041, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0053, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0046, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0047, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0048, 
+    IDC_COMBO5, 0x403, 2, 0
+0x004a, 
+    IDC_COMBO5, 0x403, 2, 0
+0x004b, 
+    IDC_COMBO5, 0x403, 2, 0
+0x004c, 
+    IDC_COMBO5, 0x403, 11, 0
+0x654c, 0x7466, 0x5320, 0x6968, 0x7466, "\000" 
+    IDC_COMBO5, 0x403, 2, 0
+0x005a, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0058, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0043, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0056, 
+    IDC_COMBO5, 0x403, 2, 0
+0x0042, 
+    IDC_COMBO5, 0x403, 2, 0
+0x004e, 
+    IDC_COMBO5, 0x403, 2, 0
+0x004d, 
+    IDC_COMBO5, 0x403, 2, 0
+0x002c, 
+    IDC_COMBO5, 0x403, 2, 0
+0x002e, 
+    IDC_COMBO5, 0x403, 12, 0
+0x6952, 0x6867, 0x2074, 0x6853, 0x6669, 0x0074, 
+    IDC_COMBO5, 0x403, 6, 0
+0x7053, 0x6361, 0x0065, 
+    IDC_COMBO5, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2a20, "\000" 
+    IDC_COMBO5, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3720, "\000" 
+    IDC_COMBO5, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3820, "\000" 
+    IDC_COMBO5, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3920, "\000" 
+    IDC_COMBO5, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2d20, "\000" 
+    IDC_COMBO5, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3420, "\000" 
+    IDC_COMBO5, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3520, "\000" 
+    IDC_COMBO5, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3620, "\000" 
+    IDC_COMBO5, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3120, "\000" 
+    IDC_COMBO5, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3220, "\000" 
+    IDC_COMBO5, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3320, "\000" 
+    IDC_COMBO5, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3020, "\000" 
+    IDC_COMBO5, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2e20, "\000" 
+    IDC_COMBO5, 0x403, 9, 0
+0x7055, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO5, 0x403, 11, 0
+0x6f44, 0x6e77, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO5, 0x403, 11, 0
+0x654c, 0x7466, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO5, 0x403, 12, 0
+0x6952, 0x6867, 0x2074, 0x7241, 0x6f72, 0x0077, 
+    IDC_COMBO5, 0x403, 5, 0
+0x6f48, 0x656d, "\000" 
+    IDC_COMBO5, 0x403, 4, 0
+0x6e45, 0x0064, 
+    IDC_COMBO5, 0x403, 5, 0
+0x6750, 0x7055, "\000" 
+    IDC_COMBO5, 0x403, 5, 0
+0x6750, 0x6e44, "\000" 
+    IDC_COMBO5, 0x403, 7, 0
+0x6e49, 0x6573, 0x7472, "\000" 
+    IDC_COMBO5, 0x403, 7, 0
+0x6544, 0x656c, 0x6574, "\000" 
+    IDC_COMBO6, 0x403, 2, 0
+0x002d, 
+    IDC_COMBO6, 0x403, 2, 0
+0x003d, 
+    IDC_COMBO6, 0x403, 10, 0
+0x6142, 0x6b63, 0x7073, 0x6361, 0x0065, 
+    IDC_COMBO6, 0x403, 7, 0
+0x7345, 0x6163, 0x6570, "\000" 
+    IDC_COMBO6, 0x403, 4, 0
+0x6154, 0x0062, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0051, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0057, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0045, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0052, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0054, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0059, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0055, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0049, 
+    IDC_COMBO6, 0x403, 2, 0
+0x004f, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0050, 
+    IDC_COMBO6, 0x403, 2, 0
+0x005b, 
+    IDC_COMBO6, 0x403, 2, 0
+0x005d, 
+    IDC_COMBO6, 0x403, 6, 0
+0x6e45, 0x6574, 0x0072, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0041, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0053, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0046, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0047, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0048, 
+    IDC_COMBO6, 0x403, 2, 0
+0x004a, 
+    IDC_COMBO6, 0x403, 2, 0
+0x004b, 
+    IDC_COMBO6, 0x403, 2, 0
+0x004c, 
+    IDC_COMBO6, 0x403, 11, 0
+0x654c, 0x7466, 0x5320, 0x6968, 0x7466, "\000" 
+    IDC_COMBO6, 0x403, 2, 0
+0x005a, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0058, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0043, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0056, 
+    IDC_COMBO6, 0x403, 2, 0
+0x0042, 
+    IDC_COMBO6, 0x403, 2, 0
+0x004e, 
+    IDC_COMBO6, 0x403, 2, 0
+0x004d, 
+    IDC_COMBO6, 0x403, 2, 0
+0x002c, 
+    IDC_COMBO6, 0x403, 2, 0
+0x002e, 
+    IDC_COMBO6, 0x403, 12, 0
+0x6952, 0x6867, 0x2074, 0x6853, 0x6669, 0x0074, 
+    IDC_COMBO6, 0x403, 6, 0
+0x7053, 0x6361, 0x0065, 
+    IDC_COMBO6, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2a20, "\000" 
+    IDC_COMBO6, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3720, "\000" 
+    IDC_COMBO6, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3820, "\000" 
+    IDC_COMBO6, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3920, "\000" 
+    IDC_COMBO6, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2d20, "\000" 
+    IDC_COMBO6, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3420, "\000" 
+    IDC_COMBO6, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3520, "\000" 
+    IDC_COMBO6, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3620, "\000" 
+    IDC_COMBO6, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3120, "\000" 
+    IDC_COMBO6, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3220, "\000" 
+    IDC_COMBO6, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3320, "\000" 
+    IDC_COMBO6, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3020, "\000" 
+    IDC_COMBO6, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2e20, "\000" 
+    IDC_COMBO6, 0x403, 9, 0
+0x7055, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO6, 0x403, 11, 0
+0x6f44, 0x6e77, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO6, 0x403, 11, 0
+0x654c, 0x7466, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO6, 0x403, 12, 0
+0x6952, 0x6867, 0x2074, 0x7241, 0x6f72, 0x0077, 
+    IDC_COMBO6, 0x403, 5, 0
+0x6f48, 0x656d, "\000" 
+    IDC_COMBO6, 0x403, 4, 0
+0x6e45, 0x0064, 
+    IDC_COMBO6, 0x403, 5, 0
+0x6750, 0x7055, "\000" 
+    IDC_COMBO6, 0x403, 5, 0
+0x6750, 0x6e44, "\000" 
+    IDC_COMBO6, 0x403, 7, 0
+0x6e49, 0x6573, 0x7472, "\000" 
+    IDC_COMBO6, 0x403, 7, 0
+0x6544, 0x656c, 0x6574, "\000" 
+    IDC_COMBO7, 0x403, 2, 0
+0x002d, 
+    IDC_COMBO7, 0x403, 2, 0
+0x003d, 
+    IDC_COMBO7, 0x403, 10, 0
+0x6142, 0x6b63, 0x7073, 0x6361, 0x0065, 
+    IDC_COMBO7, 0x403, 7, 0
+0x7345, 0x6163, 0x6570, "\000" 
+    IDC_COMBO7, 0x403, 4, 0
+0x6154, 0x0062, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0051, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0057, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0045, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0052, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0054, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0059, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0055, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0049, 
+    IDC_COMBO7, 0x403, 2, 0
+0x004f, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0050, 
+    IDC_COMBO7, 0x403, 2, 0
+0x005b, 
+    IDC_COMBO7, 0x403, 2, 0
+0x005d, 
+    IDC_COMBO7, 0x403, 6, 0
+0x6e45, 0x6574, 0x0072, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0041, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0053, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0046, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0047, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0048, 
+    IDC_COMBO7, 0x403, 2, 0
+0x004a, 
+    IDC_COMBO7, 0x403, 2, 0
+0x004b, 
+    IDC_COMBO7, 0x403, 2, 0
+0x004c, 
+    IDC_COMBO7, 0x403, 11, 0
+0x654c, 0x7466, 0x5320, 0x6968, 0x7466, "\000" 
+    IDC_COMBO7, 0x403, 2, 0
+0x005a, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0058, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0043, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0056, 
+    IDC_COMBO7, 0x403, 2, 0
+0x0042, 
+    IDC_COMBO7, 0x403, 2, 0
+0x004e, 
+    IDC_COMBO7, 0x403, 2, 0
+0x004d, 
+    IDC_COMBO7, 0x403, 2, 0
+0x002c, 
+    IDC_COMBO7, 0x403, 2, 0
+0x002e, 
+    IDC_COMBO7, 0x403, 12, 0
+0x6952, 0x6867, 0x2074, 0x6853, 0x6669, 0x0074, 
+    IDC_COMBO7, 0x403, 6, 0
+0x7053, 0x6361, 0x0065, 
+    IDC_COMBO7, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2a20, "\000" 
+    IDC_COMBO7, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3720, "\000" 
+    IDC_COMBO7, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3820, "\000" 
+    IDC_COMBO7, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3920, "\000" 
+    IDC_COMBO7, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2d20, "\000" 
+    IDC_COMBO7, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3420, "\000" 
+    IDC_COMBO7, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3520, "\000" 
+    IDC_COMBO7, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3620, "\000" 
+    IDC_COMBO7, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3120, "\000" 
+    IDC_COMBO7, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3220, "\000" 
+    IDC_COMBO7, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3320, "\000" 
+    IDC_COMBO7, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3020, "\000" 
+    IDC_COMBO7, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2e20, "\000" 
+    IDC_COMBO7, 0x403, 9, 0
+0x7055, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO7, 0x403, 11, 0
+0x6f44, 0x6e77, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO7, 0x403, 11, 0
+0x654c, 0x7466, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO7, 0x403, 12, 0
+0x6952, 0x6867, 0x2074, 0x7241, 0x6f72, 0x0077, 
+    IDC_COMBO7, 0x403, 5, 0
+0x6f48, 0x656d, "\000" 
+    IDC_COMBO7, 0x403, 4, 0
+0x6e45, 0x0064, 
+    IDC_COMBO7, 0x403, 5, 0
+0x6750, 0x7055, "\000" 
+    IDC_COMBO7, 0x403, 5, 0
+0x6750, 0x6e44, "\000" 
+    IDC_COMBO7, 0x403, 7, 0
+0x6e49, 0x6573, 0x7472, "\000" 
+    IDC_COMBO7, 0x403, 7, 0
+0x6544, 0x656c, 0x6574, "\000" 
+    IDC_COMBO8, 0x403, 2, 0
+0x002d, 
+    IDC_COMBO8, 0x403, 2, 0
+0x003d, 
+    IDC_COMBO8, 0x403, 10, 0
+0x6142, 0x6b63, 0x7073, 0x6361, 0x0065, 
+    IDC_COMBO8, 0x403, 7, 0
+0x7345, 0x6163, 0x6570, "\000" 
+    IDC_COMBO8, 0x403, 4, 0
+0x6154, 0x0062, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0051, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0057, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0045, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0052, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0054, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0059, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0055, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0049, 
+    IDC_COMBO8, 0x403, 2, 0
+0x004f, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0050, 
+    IDC_COMBO8, 0x403, 2, 0
+0x005b, 
+    IDC_COMBO8, 0x403, 2, 0
+0x005d, 
+    IDC_COMBO8, 0x403, 6, 0
+0x6e45, 0x6574, 0x0072, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0041, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0053, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0046, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0047, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0048, 
+    IDC_COMBO8, 0x403, 2, 0
+0x004a, 
+    IDC_COMBO8, 0x403, 2, 0
+0x004b, 
+    IDC_COMBO8, 0x403, 2, 0
+0x004c, 
+    IDC_COMBO8, 0x403, 11, 0
+0x654c, 0x7466, 0x5320, 0x6968, 0x7466, "\000" 
+    IDC_COMBO8, 0x403, 2, 0
+0x005a, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0058, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0043, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0056, 
+    IDC_COMBO8, 0x403, 2, 0
+0x0042, 
+    IDC_COMBO8, 0x403, 2, 0
+0x004e, 
+    IDC_COMBO8, 0x403, 2, 0
+0x004d, 
+    IDC_COMBO8, 0x403, 2, 0
+0x002c, 
+    IDC_COMBO8, 0x403, 2, 0
+0x002e, 
+    IDC_COMBO8, 0x403, 12, 0
+0x6952, 0x6867, 0x2074, 0x6853, 0x6669, 0x0074, 
+    IDC_COMBO8, 0x403, 6, 0
+0x7053, 0x6361, 0x0065, 
+    IDC_COMBO8, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2a20, "\000" 
+    IDC_COMBO8, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3720, "\000" 
+    IDC_COMBO8, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3820, "\000" 
+    IDC_COMBO8, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3920, "\000" 
+    IDC_COMBO8, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2d20, "\000" 
+    IDC_COMBO8, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3420, "\000" 
+    IDC_COMBO8, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3520, "\000" 
+    IDC_COMBO8, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3620, "\000" 
+    IDC_COMBO8, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3120, "\000" 
+    IDC_COMBO8, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3220, "\000" 
+    IDC_COMBO8, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3320, "\000" 
+    IDC_COMBO8, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3020, "\000" 
+    IDC_COMBO8, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2e20, "\000" 
+    IDC_COMBO8, 0x403, 9, 0
+0x7055, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO8, 0x403, 11, 0
+0x6f44, 0x6e77, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO8, 0x403, 11, 0
+0x654c, 0x7466, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO8, 0x403, 12, 0
+0x6952, 0x6867, 0x2074, 0x7241, 0x6f72, 0x0077, 
+    IDC_COMBO8, 0x403, 5, 0
+0x6f48, 0x656d, "\000" 
+    IDC_COMBO8, 0x403, 4, 0
+0x6e45, 0x0064, 
+    IDC_COMBO8, 0x403, 5, 0
+0x6750, 0x7055, "\000" 
+    IDC_COMBO8, 0x403, 5, 0
+0x6750, 0x6e44, "\000" 
+    IDC_COMBO8, 0x403, 7, 0
+0x6e49, 0x6573, 0x7472, "\000" 
+    IDC_COMBO8, 0x403, 7, 0
+0x6544, 0x656c, 0x6574, "\000" 
+    IDC_COMBO9, 0x403, 2, 0
+0x002d, 
+    IDC_COMBO9, 0x403, 2, 0
+0x003d, 
+    IDC_COMBO9, 0x403, 10, 0
+0x6142, 0x6b63, 0x7073, 0x6361, 0x0065, 
+    IDC_COMBO9, 0x403, 7, 0
+0x7345, 0x6163, 0x6570, "\000" 
+    IDC_COMBO9, 0x403, 4, 0
+0x6154, 0x0062, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0051, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0057, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0045, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0052, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0054, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0059, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0055, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0049, 
+    IDC_COMBO9, 0x403, 2, 0
+0x004f, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0050, 
+    IDC_COMBO9, 0x403, 2, 0
+0x005b, 
+    IDC_COMBO9, 0x403, 2, 0
+0x005d, 
+    IDC_COMBO9, 0x403, 6, 0
+0x6e45, 0x6574, 0x0072, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0041, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0053, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0044, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0046, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0047, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0048, 
+    IDC_COMBO9, 0x403, 2, 0
+0x004a, 
+    IDC_COMBO9, 0x403, 2, 0
+0x004b, 
+    IDC_COMBO9, 0x403, 2, 0
+0x004c, 
+    IDC_COMBO9, 0x403, 11, 0
+0x654c, 0x7466, 0x5320, 0x6968, 0x7466, "\000" 
+    IDC_COMBO9, 0x403, 2, 0
+0x005a, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0058, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0043, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0056, 
+    IDC_COMBO9, 0x403, 2, 0
+0x0042, 
+    IDC_COMBO9, 0x403, 2, 0
+0x004e, 
+    IDC_COMBO9, 0x403, 2, 0
+0x004d, 
+    IDC_COMBO9, 0x403, 2, 0
+0x002c, 
+    IDC_COMBO9, 0x403, 2, 0
+0x002e, 
+    IDC_COMBO9, 0x403, 12, 0
+0x6952, 0x6867, 0x2074, 0x6853, 0x6669, 0x0074, 
+    IDC_COMBO9, 0x403, 6, 0
+0x7053, 0x6361, 0x0065, 
+    IDC_COMBO9, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2a20, "\000" 
+    IDC_COMBO9, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3720, "\000" 
+    IDC_COMBO9, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3820, "\000" 
+    IDC_COMBO9, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3920, "\000" 
+    IDC_COMBO9, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2d20, "\000" 
+    IDC_COMBO9, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3420, "\000" 
+    IDC_COMBO9, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3520, "\000" 
+    IDC_COMBO9, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3620, "\000" 
+    IDC_COMBO9, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3120, "\000" 
+    IDC_COMBO9, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3220, "\000" 
+    IDC_COMBO9, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3320, "\000" 
+    IDC_COMBO9, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x3020, "\000" 
+    IDC_COMBO9, 0x403, 9, 0
+0x754e, 0x706d, 0x6461, 0x2e20, "\000" 
+    IDC_COMBO9, 0x403, 9, 0
+0x7055, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO9, 0x403, 11, 0
+0x6f44, 0x6e77, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO9, 0x403, 11, 0
+0x654c, 0x7466, 0x4120, 0x7272, 0x776f, "\000" 
+    IDC_COMBO9, 0x403, 12, 0
+0x6952, 0x6867, 0x2074, 0x7241, 0x6f72, 0x0077, 
+    IDC_COMBO9, 0x403, 5, 0
+0x6f48, 0x656d, "\000" 
+    IDC_COMBO9, 0x403, 4, 0
+0x6e45, 0x0064, 
+    IDC_COMBO9, 0x403, 5, 0
+0x6750, 0x7055, "\000" 
+    IDC_COMBO9, 0x403, 5, 0
+0x6750, 0x6e44, "\000" 
+    IDC_COMBO9, 0x403, 7, 0
+0x6e49, 0x6573, 0x7472, "\000" 
+    IDC_COMBO9, 0x403, 7, 0
+0x6544, 0x656c, 0x6574, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "res\\Title.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "XPStyle.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 TocConfig(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\TocConfig.rc2"  // 非 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"         // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

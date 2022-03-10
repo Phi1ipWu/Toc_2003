@@ -1,0 +1,12 @@
+//	Game Error Code description
+//	By: kudoxinyiji
+
+[ERRTITLE]
+TITLE = Error
+DEFAULT = Unknown error.
+
+[ERRCODE]
+0001 = Allocate memory failed.
+0002 = Load game setting failed.
+0003 = DirectDraw object init failed.
+0004 = DirectAudio object init failed.

@@ -1,0 +1,12 @@
+//	游戏错误信息描述
+//	作者：kudoxinyiji
+
+[ERRTITLE]
+TITLE = 错误
+DEFAULT = 未知错误
+
+[ERRCODE]
+0001 = 内存分配失败
+0002 = 游戏设置读取失败
+0003 = DirectDraw对象初始化失败
+0004 = DirectAudio对象初始化失败

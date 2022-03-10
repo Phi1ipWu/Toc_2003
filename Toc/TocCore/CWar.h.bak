@@ -1,0 +1,34 @@
+//---------------------------------
+//	类名：	CWar
+//	描述：	战斗类
+//	模式：	无
+//---------------------------------
+
+#ifndef _CWAR_H
+#define _CWAR_H
+
+
+#include "IDraw.h"
+
+namespace Toc
+{
+
+	class CWar : public IDraw
+	{
+	public:
+		static bool InitInstance();
+		static void ExitInstance();
+		static CWar* Instance();
+
+		void OnIdle();		//	基类虚函数
+		void OnBlt();		//	基类虚函数
+
+	private:
+		static CWar* m_pWar;
+
+	};
+
+};
+
+
+#endif

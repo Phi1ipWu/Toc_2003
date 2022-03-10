@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Toc", "Toc\Toc.vcproj", "{ACEF7F3F-3D26-4BAA-B9ED-6098F3688DCD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MapCreator", "MapCreator\MapCreator.vcproj", "{2BCAC71F-5BDB-48C1-B058-75761187DB9C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TocConfig", "TocConfig\TocConfig.vcproj", "{185EC175-7D96-432B-9296-E663036E31BA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{ACEF7F3F-3D26-4BAA-B9ED-6098F3688DCD}.Debug.ActiveCfg = Debug|Win32
+		{ACEF7F3F-3D26-4BAA-B9ED-6098F3688DCD}.Release.ActiveCfg = Release|Win32
+		{ACEF7F3F-3D26-4BAA-B9ED-6098F3688DCD}.Release.Build.0 = Release|Win32
+		{2BCAC71F-5BDB-48C1-B058-75761187DB9C}.Debug.ActiveCfg = Debug|Win32
+		{2BCAC71F-5BDB-48C1-B058-75761187DB9C}.Release.ActiveCfg = Release|Win32
+		{185EC175-7D96-432B-9296-E663036E31BA}.Debug.ActiveCfg = Debug|Win32
+		{185EC175-7D96-432B-9296-E663036E31BA}.Release.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

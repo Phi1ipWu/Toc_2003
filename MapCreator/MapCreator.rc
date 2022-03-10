@@ -1,0 +1,225 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建",                        IDM_FILE_NEW
+        MENUITEM "打开...\t",                   IDM_FILE_OPEN
+        MENUITEM "保存",                        IDM_FILE_SAVE
+        MENUITEM "另存为...",                   IDM_FILE_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "读取图素信息",                IDM_FILE_LOADTILEINFO
+        MENUITEM "保存图素信息",                IDM_FILE_SAVETILEINFO
+        MENUITEM SEPARATOR
+        MENUITEM "退出",                        IDM_FILE_EXIT
+    END
+    POPUP "图素(&T)"
+    BEGIN
+        MENUITEM "01: 草原",                    IDM_TILE_01
+        MENUITEM "02: 明亮的森林",              IDM_TILE_02
+        MENUITEM "03: 暗的森林",                IDM_TILE_03
+        MENUITEM "04: 山道",                    IDM_TILE_04
+        MENUITEM "05: 海边道路",                IDM_TILE_05
+        MENUITEM "06: 沙漠",                    IDM_TILE_06
+        MENUITEM "07: 沼泽",                    IDM_TILE_07
+        MENUITEM "08: 雪原",                    IDM_TILE_08
+        MENUITEM "09: 城下小镇 外部",           IDM_TILE_09
+        MENUITEM "10: 城下小镇 内部",           IDM_TILE_10
+        MENUITEM "11: 海港 外部",               IDM_TILE_11
+        MENUITEM "12: 海港 内部",               IDM_TILE_12
+        MENUITEM "13: 宿驿城市 外部",           IDM_TILE_13
+        MENUITEM "14: 宿驿城市 内部",           IDM_TILE_14
+        MENUITEM "15: 森林小镇 外部",           IDM_TILE_15
+        MENUITEM "16: 森林小镇 内部",           IDM_TILE_16
+        MENUITEM "17: 矿山小镇 外部",           IDM_TILE_17
+        MENUITEM "18: 矿山小镇 内部",           IDM_TILE_18
+        MENUITEM "19: 沙漠小镇 外部",           IDM_TILE_19
+        MENUITEM "20: 沙漠小镇 内部",           IDM_TILE_20
+        MENUITEM "21: 雪国之城 外部",           IDM_TILE_21
+        MENUITEM "22: 雪国之城 内部",           IDM_TILE_22
+        MENUITEM "23: 农村 外部",               IDM_TILE_23
+        MENUITEM "24: 农村 内部",               IDM_TILE_24
+        MENUITEM "25: 王城 外部",               IDM_TILE_25
+        MENUITEM "26: 王城 内部",               IDM_TILE_26
+        MENUITEM "27: 王城 地下牢房",           IDM_TILE_27
+        MENUITEM "28: 教会 外部",               IDM_TILE_28
+        MENUITEM "29: 教会 内部",               IDM_TILE_29
+        MENUITEM "30: 船 外部",                 IDM_TILE_30
+        MENUITEM "31: 船 内部",                 IDM_TILE_31
+        MENUITEM "32: 天上世界 外部",           IDM_TILE_32
+        MENUITEM "33: 天上世界 内部",           IDM_TILE_33
+        MENUITEM "34: 桥",                      IDM_TILE_34
+        MENUITEM "35: 废墟",                    IDM_TILE_35
+        MENUITEM "36: 店内",                    IDM_TILE_36
+        MENUITEM "37: 城寨 外部",               IDM_TILE_37
+        MENUITEM "38: 城寨 内部",               IDM_TILE_38
+        MENUITEM "39: 塔 外部",                 IDM_TILE_39
+        MENUITEM "40: 塔 内部",                 IDM_TILE_40
+        MENUITEM "41: 魔物城堡 外部",           IDM_TILE_41
+        MENUITEM "42: 魔物城堡 内部",           IDM_TILE_42
+        MENUITEM "43: 土之洞窟",                IDM_TILE_43
+        MENUITEM "44: 炎之洞窟",                IDM_TILE_44
+        MENUITEM "45: 冰之洞窟",                IDM_TILE_45
+        MENUITEM "46: 水之洞窟",                IDM_TILE_46
+        MENUITEM "47: 矿山",                    IDM_TILE_47
+        MENUITEM "48: 下水道",                  IDM_TILE_48
+        MENUITEM "49: 体内",                    IDM_TILE_49
+        MENUITEM "50: 黑暗空间",                IDM_TILE_50
+    END
+    POPUP "地图(&M)"
+    BEGIN
+        MENUITEM "设置大小...",                 IDM_MAP_SIZE
+        POPUP "地图层次"
+        BEGIN
+            MENUITEM "显示全部",                    IDM_MAP_LAYER_ALL
+            MENUITEM "层一（最底部）",              IDM_MAP_LAYER_1
+            MENUITEM "层二（修饰物）",              IDM_MAP_LAYER_2
+            MENUITEM "层三（遮挡物）",              IDM_MAP_LAYER_3
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "填充地图",                    IDM_MAP_FILL
+        MENUITEM "清空地图",                    IDM_MAP_CLEAR
+        MENUITEM "图素信息",                    IDM_MAP_DRAWINFO
+        MENUITEM "查看信息",                    IDM_MAP_INFO
+    END
+    POPUP "右键(&R)"
+    BEGIN
+        MENUITEM "清空全部层",                  IDM_RC_CLEARALL
+        MENUITEM "清空层一（最底层）",          IDM_RC_CLEARLAYER1
+        MENUITEM "清空层二（修饰物）",          IDM_RC_CLEARLAYER2
+        MENUITEM "清空层三（遮挡层）",          IDM_RC_CLEARLAYER3
+        MENUITEM "无法行走",                    IDM_RC_NOTSTAND
+        MENUITEM "允许行走",                    IDM_RC_CANSTAND
+        MENUITEM SEPARATOR
+        MENUITEM "放置 NPC",                    IDM_RC_SETNPC
+        MENUITEM "切换场景设置（锚点）",        IDM_RC_SETANCHOR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MapSizeDlg DIALOGEX 0, 0, 166, 132
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "设置地图大小"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SIZE_VERT,72,19,66,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_SIZE_HORZ,72,40,66,12,ES_CENTER | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "确定",IDOK,30,105,50,14
+    PUSHBUTTON      "取消",IDCANCEL,90,105,50,14
+    LTEXT           "行数：",IDC_STATIC,30,19,30,8
+    LTEXT           "列数：",IDC_STATIC,30,40,30,8
+    LTEXT           "注：行列数取值范围（10 ~ 3000）",IDC_STATIC,24,58,132,
+                    12
+    LTEXT           "参数：",IDC_STATIC,30,81,30,12
+    EDITTEXT        IDC_SIZE_PARAM1,72,81,66,14,ES_CENTER | ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MapSizeDlg, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 159
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 125
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+1                       RT_MANIFEST             "XPStyle.manifest"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

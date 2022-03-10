@@ -1,0 +1,52 @@
+//---------------------------------
+//	类名：	CWar
+//	描述：	战斗类
+//	模式：	无
+//---------------------------------
+
+
+#include "CWar.h"
+
+
+using namespace Toc;
+
+
+CWar* CWar::m_pWar = 0;
+
+
+bool CWar::InitInstance()
+{
+	m_pWar = new CWar();
+	return true;
+}
+
+void CWar::ExitInstance()
+{
+	if(m_pWar)
+	{
+		delete m_pWar;
+		m_pWar = 0;
+	}
+}
+
+
+CWar* CWar::Instance()
+{
+	return m_pWar;
+}
+
+
+void CWar::OnBlt()
+{
+
+
+}
+
+void CWar::OnIdle()
+{
+
+
+}
+
+		
+
